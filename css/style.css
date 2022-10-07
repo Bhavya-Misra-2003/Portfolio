@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+.navbar-nav{
+    font-size: 18px;
+}
+.navbar{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Button */
+.btn:hover{
+    color:white;
+}
+
+/* Progress bar */
+/* NOT WORKING */
+.progress{
+    height: 30px!important;
+    border-radius: 50px!important;
+}
+
+/* Card Section */
+.card{
+    transition: all 0.5s ease!important;
+}
+.card:hover{
+    transition: scale(1.1)!important;
+    box-shadow: 4px 5px 12px black!important;
+}
